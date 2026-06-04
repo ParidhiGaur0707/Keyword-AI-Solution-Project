@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Home from "./pages/Home";
-import DigitalMarketing from "./pages/DigitalMarketing";
-import WebDevelopment from "./pages/WebDevelopment";
+import Home from "./pages/Home.jsx";
+import DigitalMarketing from "./pages/DigitalMarketing.jsx";
+import WebDevelopment from "./pages/WebDevelopment.jsx";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
